@@ -12,8 +12,8 @@ PlayerSettings:
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
-  companyName: Damir Kairov
-  productName: FnW_nFactorial2023
+  companyName: kairov_d
+  productName: nFact_FireboyAndWatergirl
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -155,7 +155,7 @@ PlayerSettings:
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
-    Standalone: com.Damir-Kairov.FnW-nFactorial2023
+    Standalone: com.kairov-d.nFact-FireboyAndWatergirl
   buildNumber:
     Standalone: 0
     iPhone: 0

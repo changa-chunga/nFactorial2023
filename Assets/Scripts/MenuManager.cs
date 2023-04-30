@@ -36,6 +36,11 @@ public class MenuManager : MonoBehaviour
         if(lv <= PlayerPrefs.GetInt("Level", 1))
             LevelLoader.instance.loadLevel(lv);
     }
+
+    public void quit()
+    {
+        Application.Quit();
+    }
 }
 [System.Serializable]
 public struct LevelButton

@@ -22,25 +22,6 @@ public class TransitionSet
     [Tooltip("In Seconds")]
     public float TransitionLength;
 }
-[System.Serializable]
-public struct audioSet
-{
-    public int level;
-    public bool isAlly;
-    public AudioClip clip;
-    public float volume;
-    public int maxAllowedSources;
-    [HideInInspector]
-    public AudioSource[] sources;
-    [HideInInspector]
-    public int currentSource;
-}
-[System.Serializable]
-public struct AudioForObject
-{
-    public string index;
-    public audioSet[] audios;
-}
 
 public interface Iinteractable
 {

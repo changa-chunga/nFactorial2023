@@ -106,9 +106,11 @@ public class animationcontroller : MonoBehaviour
                     subRenderers[k].sprite = animations[i].frames[j].sprite;
                 }
                         
-                for (int fr = 0; fr < animations[i].frames[j].frameTime; fr++)
+                for (int fr = 0; fr < animations[i].frames[j].frameTime;)
                 {
                     yield return null;
+                    if (Time.timeScale > 0.5f)
+                        fr++;
                 }
             }
             for (int j = 0; j < subRenderers.Length; j++)
@@ -138,6 +140,8 @@ public class animationcontroller : MonoBehaviour
                 for (int fr = 0; fr < animations[i].frames[j].frameTime; fr++)
                 {
                     yield return null;
+                    if (Time.timeScale > 0.5f)
+                        fr++;
                 }
             }
             for (int k = 0; k < subRenderers.Length; k++)
